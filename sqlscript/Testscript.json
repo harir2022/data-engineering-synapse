@@ -1,0 +1,17 @@
+{
+	"name": "Testscript",
+	"properties": {
+		"content": {
+			"query": "select * from sys.services",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "master",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
