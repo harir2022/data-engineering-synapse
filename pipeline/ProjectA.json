@@ -1,0 +1,36 @@
+{
+	"name": "ProjectA",
+	"properties": {
+		"activities": [
+			{
+				"name": "Notebook1",
+				"type": "SynapseNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebook": {
+						"referenceName": "ProjectA",
+						"type": "NotebookReference"
+					},
+					"snapshot": true,
+					"sparkPool": {
+						"referenceName": "dataengineering",
+						"type": "BigDataPoolReference"
+					},
+					"executorSize": "Small",
+					"driverSize": "Small"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2024-12-29T07:51:27Z"
+	},
+	"type": "Microsoft.Synapse/workspaces/pipelines"
+}
