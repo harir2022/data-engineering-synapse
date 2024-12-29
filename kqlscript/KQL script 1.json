@@ -1,0 +1,12 @@
+{
+	"name": "KQL script 1",
+	"properties": {
+		"content": {
+			"query": "#try to commit from main",
+			"metadata": {
+				"language": "kql"
+			}
+		},
+		"type": "KqlQuery"
+	}
+}
