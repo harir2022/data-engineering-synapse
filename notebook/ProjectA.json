@@ -6,17 +6,21 @@
 		},
 		"nbformat": 4,
 		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "dataengineering",
+			"type": "BigDataPoolReference"
+		},
 		"sessionProperties": {
-			"driverMemory": "28g",
-			"driverCores": 4,
-			"executorMemory": "28g",
-			"executorCores": 4,
+			"driverMemory": "56g",
+			"driverCores": 8,
+			"executorMemory": "56g",
+			"executorCores": 8,
 			"numExecutors": 2,
 			"conf": {
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "10dfe798-81b4-4b47-8987-66acee87cc0d"
+				"spark.autotune.trackingId": "38c823b6-04dc-4956-85ea-deacc8cc90fe"
 			}
 		},
 		"metadata": {
@@ -28,6 +32,21 @@
 			},
 			"language_info": {
 				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/aee8296a-ba5c-4ca2-8cac-c8b0378299be/resourceGroups/data-engineering/providers/Microsoft.Synapse/workspaces/data-engineering-2024/bigDataPools/dataengineering",
+				"name": "dataengineering",
+				"type": "Spark",
+				"endpoint": "https://data-engineering-2024.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/dataengineering",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net"
+				},
+				"sparkVersion": "3.4",
+				"nodeCount": 10,
+				"cores": 8,
+				"memory": 56,
+				"automaticScaleJobs": false
 			},
 			"sessionKeepAliveTimeout": 30
 		},
