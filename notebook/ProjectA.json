@@ -20,7 +20,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "e724de42-7ff2-4251-8243-dac6067a4927"
+				"spark.autotune.trackingId": "9f3e9973-5a64-42e8-9bef-fcac8a326c0e"
 			}
 		},
 		"metadata": {
@@ -68,15 +68,16 @@
 					]
 				},
 				"source": [
-					"input_file = \"a\"\r\n",
-					"output_file = \"b\""
+					"input_file = \"input_file_from_notebook\"\r\n",
+					"output_file = \"output_file_from_notebook\""
 				],
 				"execution_count": null
 			},
 			{
 				"cell_type": "code",
 				"source": [
-					"#ingest data for projectA"
+					"#ingest data for projectA\r\n",
+					"print(input_file,output_file)"
 				],
 				"execution_count": null
 			}
