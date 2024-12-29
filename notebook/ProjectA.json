@@ -20,7 +20,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "421c78c0-ad58-469d-b965-c1bf423143da"
+				"spark.autotune.trackingId": "e724de42-7ff2-4251-8243-dac6067a4927"
 			}
 		},
 		"metadata": {
@@ -68,8 +68,8 @@
 					]
 				},
 				"source": [
-					"input_file = a\r\n",
-					"output_file = b"
+					"input_file = \"a\"\r\n",
+					"output_file = \"b\""
 				],
 				"execution_count": null
 			},
