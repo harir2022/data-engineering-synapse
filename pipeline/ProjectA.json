@@ -19,6 +19,16 @@
 						"referenceName": "ProjectA",
 						"type": "NotebookReference"
 					},
+					"parameters": {
+						"input_file": {
+							"value": "input_file_from_pipeline",
+							"type": "string"
+						},
+						"output_file": {
+							"value": "output_file_from_pipeline",
+							"type": "string"
+						}
+					},
 					"snapshot": true,
 					"sparkPool": {
 						"referenceName": "dataengineering",
