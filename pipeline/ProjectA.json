@@ -25,12 +25,21 @@
 						"type": "BigDataPoolReference"
 					},
 					"executorSize": "Small",
-					"driverSize": "Small"
+					"conf": {
+						"spark.dynamicAllocation.enabled": null,
+						"spark.dynamicAllocation.minExecutors": null,
+						"spark.dynamicAllocation.maxExecutors": null
+					},
+					"driverSize": "Small",
+					"numExecutors": null
 				}
 			}
 		],
+		"folder": {
+			"name": "ProjectA"
+		},
 		"annotations": [],
-		"lastPublishTime": "2024-12-29T07:51:27Z"
+		"lastPublishTime": "2024-12-29T08:08:45Z"
 	},
 	"type": "Microsoft.Synapse/workspaces/pipelines"
 }
